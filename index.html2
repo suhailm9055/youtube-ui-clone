@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Youtube</title>
+</head>
+<body> 
+    <nav>
+        <div class="container">
+            <div class="youtubeLogo">
+                <span class="material-icons">
+                    menu
+                    </span>
+            <img src="youtube.jpg">
+        </div>
+        <div class="voiceSearch">
+        <div class="headerSearch">
+            <input type="text" placeholder="Search" >
+            <span class="material-icons">search</span>
+        </div>
+        <div class="micbg">
+           <i class="material-icons outline">mic</i>
+           </div>
+        </div>
+        <div class="headerProfile">
+            <div class="hIcons">
+            <span class="material-icons">video_call</span>
+            <span class="material-icons">apps</span>
+            <span class="material-icons">notifications_active</span>
+            <span class="material-icons">account_circle</span>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div class="mainBody">
+        <div class="homeBar">
+            <div class="iconDiv">
+                <div class="homecurret">
+                <span class="material-icons outline">home</span>
+                <p>Home</p>
+                 </div>
+                 <div class="homelib">
+                <i class="material-icons outline">explore</i>
+                <p>Explore</p></div>
+                <div class="homelib">
+                <i class="material-icons outline">subscriptions</i>
+                <p>Subscriptions</p></div>
+                <div class="homelib">
+                <i class="material-icons outline">video_library</i>
+                <p>Library</p></div>
+            </div>
+
+        </div>
+        <div class="videoBody">
+            <div class="topicBar">
+                <div class="topics">
+                    <swap>Programming</swap>
+                </div>
+                <div class="topics">
+                    <swap>development</swap>
+                </div><div class="topics">
+                    <swap>Ted</swap>
+                </div><div class="topics">
+                    <swap>Sales</swap>
+                </div><div class="topics">
+                    <swap>Music</swap>
+                </div><div class="topics">
+                    <swap>live</swap>
+                </div><div class="topics">
+                    <swap>Gadjets</swap>
+                </div><div class="topics">
+                    <swap>watched</swap>
+                </div><div class="topics">
+                    <swap>Money heist</swap>
+                </div><div class="topics">
+                    <swap>Html</swap>
+                </div><div class="topics">
+                    <swap>Css</swap>
+                </div>
+                
+            </div>
+            <div class="videos">
+            <div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="https://i.ytimg.com/an_webp/qruKfTi4Mtg/mqdefault_6s.webp?du=3000&sqp=COCqi4oG&rs=AOn4CLA3EVvxFqKFORo_hOnEXslPd5wEWg"></div>
+                    <div class="videoDetails">
+                        <div class="pfodesciption">
+                        <img class="profilethump" src="https://yt3.ggpht.com/ytc/AKedOLQK598lI3kKDR42zXsnQb9LoF_92gYAU9HSqPwc=s68-c-k-c0x00ffffff-no-rj">
+                        <p>Crossroads</p>
+                    </div>
+                    <div class="videoabout">
+                        <p>Crossroads</p>
+                        </div>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="https://i.ytimg.com/an_webp/lpcpsCY4Mco/mqdefault_6s.webp?du=3000&sqp=CLqOi4oG&rs=AOn4CLBZ7ZF1xXIAusQCn-fozWP3SoVakA"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="https://i.ytimg.com/an_webp/WRUqXZx5EUM/mqdefault_6s.webp?du=3000&sqp=CP-4i4oG&rs=AOn4CLDDH7KbdaVOCA_mYlaWjclsMhmJ5Q"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div><div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="https://i.ytimg.com/an_webp/XKfgdkcIUxw/mqdefault_6s.webp?du=3000&sqp=COSPi4oG&rs=AOn4CLCZVrsN7WODJyABqzALulAstdL_ag"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="https://i.ytimg.com/an_webp/qruKfTi4Mtg/mqdefault_6s.webp?du=3000&sqp=COCqi4oG&rs=AOn4CLA3EVvxFqKFORo_hOnEXslPd5wEWg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div><div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div><div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div><div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div><div class="videosthumps">
+                <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div> <div class="videobox">
+                    <div class="videoimg">
+                    <img src="tedx-1200x800.jpg"></div>
+                    <div class="videoDetails">
+                        <img class="profilethump" src="TEDx-logo.png">
+                        <p>Tedx</p>
+                        <p>Tedx</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

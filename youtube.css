@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f2ef;
+  align-items: top;
+}
+.material-icons {
+  cursor: pointer;
+}
+nav {
+  width: 100%;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: #202020;
+  position: -webkit-sticky;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+}
+
+nav .container .youtubeLogo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  margin-left: 20px;
+}
+nav .container .youtubeLogo img {
+  margin-left: 10px;
+  height: auto;
+  width: 130px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+nav .container .voiceSearch {
+  display: flex;
+  align-items: center;
+  border: 0.1px solid #5e5d5d;
+  width: 300px;
+  height: 25px;
+}
+nav .container .voiceSearch .headerSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #313131;
+}
+
+nav .container .voiceSearch .headerSearch input {
+  background-color: #121212;
+  color: #7e7e7e;
+  outline: none;
+  border: 0.1px solid #5e5d5d;
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+nav .container .voiceSearch .headerSearch .material-icons {
+  padding-right: 10px;
+  color: #7e7e7e;
+}
+nav .container .voiceSearch .headerSearch .material-icons:hover {
+  cursor: pointer;
+  color: #8596a7;
+}
+nav .container .voiceSearch .micbg {
+  width: 80px;
+  height: 30px;
+  color: white;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+nav .container .headerProfile .hIcons .material-icons {
+  margin: 10px;
+  color: white;
+}
+nav .container .headerProfile {
+  padding-right: 20px;
+}
+.mainBody {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+  background-color: #202020;
+}
+
+.mainBody .homeBar {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #202020;
+  width: 70px;
+  position: fixed;
+}
+.mainBody .homeBar .iconDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainBody .homeBar .iconDiv .material-icons {
+  color: #888888;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.mainBody .homeBar .iconDiv p {
+  color: #888888;
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+}
+.mainBody .homeBar .iconDiv .homecurret {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainBody .homeBar .iconDiv .homecurret span {
+  color: white;
+}
+.mainBody .homeBar .iconDiv .homecurret p {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainBody .homeBar .iconDiv .homecurret:hover {
+  background-color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+.mainBody .homeBar .iconDiv .homelib {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainBody .homeBar .iconDiv .homelib:hover {
+  background-color: rgb(75, 74, 74);
+  cursor: pointer;
+}
+.mainBody .homeBar .iconDiv .material-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainBody .videoBody {
+  width: 100%;
+  margin-left: 70px;
+}
+.mainBody .videoBody .topicBar {
+  width: 100%;
+  height: 60px;
+  background-color: #202020;
+  border-top: 1.5px solid rgb(65, 65, 65);
+  border-bottom: 1.5px solid rgb(65, 65, 65);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+}
+.mainBody .videoBody .topicBar .topics {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.mainBody .videoBody .topicBar .topics swap {
+  background-color: #373737;
+  color: white;
+  padding: 7px;
+  border: .2px solid grey;
+  padding-inline: 10px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+}
+.mainBody .videoBody .topicBar .topics swap:hover {
+  cursor: pointer;
+  background-color: #636060;
+}
+.mainBody .videoBody .videosthumps {
+  display: flex;
+  margin-top: 60px;
+}
+.videosthumps1{
+  display: flex;
+}
+.mainBody .videoBody .videos .videobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  height: 232px;
+  background-color: #181818;
+  color: black;
+  
+}
+
+.mainBody .videoBody .videos .videobox .videoimg{
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  height: 232px;
+}
+.mainBody .videoBody .videos .videobox .videoimg img{
+  width: 100%;
+  height: 75%;
+}
+
+.videoDetails{
+  display: flex;
+ 
+  
+}
+.videoDetails .propic{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+ 
+}
+.videoDetails .propic img{
+  width: 20px;
+  height: 100%;
+  border-radius: 50%;
+}
+.namedetails{
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+  color: white;
+  
+  
+}
+.namedscription{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  
+}
+.namedetails p{
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Geneva, Tahoma, sans-serif;
+ font-weight: 500;
+}
+.namedscription p1{
+  font-size: 11px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Geneva, Tahoma, sans-serif;
+ font-weight: 500;
+ color:#aaaaaa;
+left: 0;
+}
+.namedetails:hover{
+  cursor: pointer;
+}
+.videoimg:hover{
+  background-color: rgb(46, 46, 46);
+  cursor: pointer;
+}
